@@ -44,14 +44,10 @@ Every newly manufactured Watt? Smart Meter has an object in the *Homes* tree. th
 The Watt? Smart Plug doesn't differ from the Watt? Smart Meter a lot. It is also has a hard-coded *deviceID* to store its data under the object of its key. The smart plug is programmed to store some info about the device that is plugged into it like *name* and *iconID*, measure the realtime consumption of the plugged device and control the plugged device by switching it on or off.
 
 The user can control the plugged device as the following:
-
 - **Immediately** by pushing the button on the smart plug or by using the mobile application.
-
 - **At a specific time** by using the control timer feature in the mobile application.
 
-  ​
-
-  So the *startAt* and *stopAt* objects are needed under the *Devices Tree*.
+So the *startAt* and *stopAt* objects are needed under the *Devices Tree* to handle the timer feature.
 
 ### Relationships
 
