@@ -35,7 +35,7 @@ When a new user starts using our Watt? Mobile Application, He will be asked to r
 
 ![Homes Tree](img/HomesTree.png)
 
-
+Every newly manufactured Watt? Smart Meter has an object in the *Homes* tree. the key of this object is a 20 character string that is hard-coded in the controller of the smart meter. The Watt? Smart Meter is programmed to measure the realtime power consumption, calculate the cumulative energy consumptions and keep track of the past consumptions of the home. It will push these data to the Firebase Realtime Database under its *homeID* object.
 
 ##### Devices Tree
 
