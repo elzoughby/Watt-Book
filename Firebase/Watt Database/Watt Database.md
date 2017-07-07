@@ -51,14 +51,18 @@ So the *startAt* and *stopAt* objects are needed under the *Devices Tree* to han
 
 ### Relationships
 
-As we said before, Users can own multiple Homes and Homes can have multiple multiple Devices. Those are the two relationships that shown above in the ER diagram. They can be described as :
+As we said before, Users can own multiple Homes and Homes can have multiple multiple Devices. Those are the two relationships that are shown above in the ER diagram. They can be described as :
 
 - **Belongs To**
 
   ![belongs To relationship](img/belongsToRelation.png)
 
+  Each user in the *Users Tree* has an array to hold his *homeIDs*. This indicates that these homes belong to that user. As the user must have at least one home (Watt? Smart Meter) and the home can belong to zero or more users, this is a many-to-many relationship.
+
 - **Has**
 
   ![has relationship](img/hasRelation.png)
+
+  Each home (Watt? Smart Meter) in the *Homes Tree* can have a zero or more Devices (Watt? Smart Plugs) and every device must be connected with one home. So *Devices* must have a foreign key to the *Homes* and this should be a one-to-many relationship. 
 
 ### Database Rules
