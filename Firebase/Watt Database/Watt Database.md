@@ -64,5 +64,3 @@ As we said before, Users can own multiple Homes and Homes can have multiple mult
   ![has relationship](img/hasRelation.png)
 
   Each home (Watt? Smart Meter) in the *Homes Tree* can have a zero or more Devices (Watt? Smart Plugs) and every device must be connected with one home. So *Devices* must have a foreign key to the *Homes* and this should be a one-to-many relationship. 
-
-### Database Rules
