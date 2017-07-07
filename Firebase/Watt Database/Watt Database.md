@@ -35,11 +35,23 @@ When a new user starts using our Watt? Mobile Application, He will be asked to r
 
 ![Homes Tree](img/HomesTree.png)
 
-Every newly manufactured Watt? Smart Meter has an object in the *Homes* tree. the key of this object is a 20 character string that is hard-coded in the controller of the smart meter. The Watt? Smart Meter is programmed to measure the realtime power consumption, calculate the cumulative energy consumptions and keep track of the past consumptions of the home. It will push these data to the Firebase Realtime Database under its *homeID* object.
+Every newly manufactured Watt? Smart Meter has an object in the *Homes* tree. the key of this object is a 20 character string that is hard-coded in the controller of the smart meter. The Watt? Smart Meter is programmed to measure the realtime power consumption, calculate the cumulative energy consumptions and keep track of the past consumptions of the home. It will push all these data to the Firebase Realtime Database under its *homeID* object as shown in the previous diagram.
 
 ##### Devices Tree
 
 ![Devices Tree](img/DevicesTree.png)
+
+The Watt? Smart Plug doesn't differ from the Watt? Smart Meter a lot. It is also has a hard-coded *deviceID* to store its data under the object of its key. The smart plug is programmed to store some info about the device that is plugged into it like *name* and *iconID*, measure the realtime consumption of the plugged device and control the plugged device by switching it on or off.
+
+The user can control the plugged device as the following:
+
+- **Immediately** by pushing the button on the smart plug or by using the mobile application.
+
+- **At a specific time** by using the control timer feature in the mobile application.
+
+  ​
+
+  So the *startAt* and *stopAt* objects are needed under the *Devices Tree*.
 
 ### Relationships
 
