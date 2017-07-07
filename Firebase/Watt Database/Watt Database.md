@@ -29,9 +29,13 @@ Relationships formed in the graph must be such that only *one-to-many* or *one-t
 
 ![Users Tree Diagram](img/UsersTree.png)
 
+When a new user starts using our Watt? Mobile Application, He will be asked to register an account using his *Google Account*. The app will create an object under the root node (Users) with the key of a generated *userID* and the value of an object containing user info (name and email) and an empty array. Then the app will ask the user to define his Watt? Smart Meters and push a references to them in the *homeID* array.
+
 ##### Homes Tree
 
 ![Homes Tree](img/HomesTree.png)
+
+
 
 ##### Devices Tree
 
@@ -39,7 +43,7 @@ Relationships formed in the graph must be such that only *one-to-many* or *one-t
 
 ### Relationships
 
-
+As we said before, Users can own multiple Homes and Homes can have multiple multiple Devices. Those are the two relationships that shown above in the ER diagram. They can be described as :
 
 - **Belongs To**
 
