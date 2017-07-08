@@ -1,0 +1,6 @@
+Introduction to the Internet of Things and Embedded Systems
+- What Is the Internet of Things (IoT)?
+- Embedded Systems
+- Hardware and Software
+- Networking and the Internet
+
