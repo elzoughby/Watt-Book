@@ -38,25 +38,25 @@ The closest to an official definition of the Internet of Things comes from the I
 - **Information** it is obvious that having more information helps making better decisions. Whether it is mundane decisions as needing to know what to buy at the grocery store or if your company has enough widgets and supplies, knowledge is power and more knowledge is better.
 
 
-- **Monitor** The second most obvious advantage of IoT is monitoring. Knowing the	exact quantity of supplies or the air quality in your home, can	further provide more information that could not have previously been collected easily. For instance, knowing that you are low on milk or printer ink could save you another trip to the store in the near future. Furthermore, monitoring the expiration of products can and	will improve safety.
+- **Monitor** The second most obvious advantage of IoT is monitoring. Knowing the	exact quantity of supplies or the air quality in your home, can	further provide more information that could not have previously been collected easily. For instance, knowing that you are low on milk or printer ink could save you another trip to the store in the near future. Furthermore, monitoring the expiration of products can and will improve safety.
 
 
-  - **Time** As hinted in the previous examples, the amount of time saved because of IoT could be quite large. And in today’s modern life, we all	could use more time.
+- **Time** As hinted in the previous examples, the amount of time saved because of IoT could be quite large. And in today’s modern life, we all could use more time.
 
 
-  - **Money **The biggest advantage of IoT is saving money. If the price of the tagging and monitoring equipment is less than the amount of money saved, then the Internet of Things will be very widely adopted. IoT fundamentally proves to be very helpful to people in their daily routines by making the appliances communicate to each other in an effective manner thereby saving and conserving energy and cost. Allowing the data to be communicated and shared between devices and then translating it into our required way, it makes our systems efficient.
+- **Money **The biggest advantage of IoT is saving money. If the price of the tagging and monitoring equipment is less than the amount of money saved, then the Internet of Things will be very widely adopted. IoT fundamentally proves to be very helpful to people in their daily routines by making the appliances communicate to each other in an effective manner thereby saving and conserving energy and cost. Allowing the data to be communicated and shared between devices and then translating it into our required way, it makes our systems efficient.
 
 
-  - **Automation of daily tasks leads to better monitoring of devices** The IoT allows you to automate and control the tasks that are done on a daily basis, avoiding human intervention. Machine-to-machine	communication helps to maintain transparency in the processes. It also leads to uniformity in the tasks. It can also maintain the quality of service. We can also take necessary action in case of emergencies.
+- **Automation of daily tasks leads to better monitoring of devices** The IoT allows you to automate and control the tasks that are done on a daily basis, avoiding human intervention. Machine-to-machine	communication helps to maintain transparency in the processes. It also leads to uniformity in the tasks. It can also maintain the quality of service. We can also take necessary action in case of emergencies.
 
 
-  - **Efficient and Saves Time** The machine-to-machine interaction provides better efficiency, hence;	accurate results can be obtained fast. This results in saving valuable time. Instead of repeating the same tasks every day, it enables people to do other creative jobs.
+- **Efficient and Saves Time** The machine-to-machine interaction provides better efficiency, hence;	accurate results can be obtained fast. This results in saving valuable time. Instead of repeating the same tasks every day, it enables people to do other creative jobs.
 
 
-  - **Saves Money** Optimum utilization of energy and resources can be achieved by adopting this	technology and keeping the devices under surveillance. We can be alerted in case of possible bottlenecks, breakdowns, and damages to the system. Hence, we can save money by using this technology.
+- **Saves Money** Optimum utilization of energy and resources can be achieved by adopting this	technology and keeping the devices under surveillance. We can be alerted in case of possible bottlenecks, breakdowns, and damages to the system. Hence, we can save money by using this technology.
 
 
-  - **Better Quality of Life** All the applications of this technology culminate in increased comfort, convenience, and better management, thereby improving the quality of life.
+- **Better Quality of Life** All the applications of this technology culminate in increased comfort, convenience, and better management, thereby improving the quality of life.
 
 
 ### Internet of Things Architecture
