@@ -128,7 +128,7 @@ CircuitMaker is the best free-to-use schematic and PCB design tool for the Open 
 
 #### PCB layout and component placing
 
-Accurate component placing should be made to increase the PCB size to the minimum. Also components’ size chosen accurately to pick the smallest size components, so we moved to SMD components rather than through hole components as shown in figures bellow.
+Accurate component placement is made to shrink the PCB size to the minimum. Also components’ size chosen accurately to pick the smallest size components, so we moved to SMD components rather than through hole components as shown in figures bellow:
 
 ![3D Design](img/3D1.png)
 
@@ -169,12 +169,12 @@ Accurate component placing should be made to increase the PCB size to the minimu
 There are a lot of challenges have faces us in manufacturing the printed circuit board :
 
 - High Cost by the local manufacturers in Egypt.
-- Bad quality by the local manufacturers.
+- No high quality manufacturers found in Egypt.
 - High customs if manufactured abroad in china.
-- Preventing the manufactured products to arrive from the national security in Egypt.
-- Take long time to be arrive if manufactured abroad.
+- Preventing the manufactured products to arrive, from the national security in Egypt.
+- Take long time to arrive if manufactured abroad.
 - Bad quality of hand-made PCBs.
-- Bigger size when manufactured hand-made.
+- Bigger size when manufactured in home.
 
 ## References
 
