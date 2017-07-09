@@ -104,6 +104,78 @@ Two types of current sensor are used in Watt? Project. One for the smart meter a
 
   ST Microelectronics’s BTA16 also features a very high Repetitive peak off-state voltage of 600 V and small Triggering gate current of 50 mA. A microcontroller GPIO pin is used in corporation with a PNP transistor to supply enough triggering current to switch the Triac ON or OFF. An Indication green LED also is used to indicate the state of the device to the user.
 
+### Printed Circuit Board Design and Layout
+
+A printed circuit board (PCB) mechanically supports and electrically connects electronic components using conductive tracks, pads and other features etched from copper sheets laminated onto a non-conductive substrate. Components (e.g. capacitors, resistors or active devices) are generally soldered on the PCB. Advanced PCBs may contain components embedded in the substrate.
+
+![PCB Layers](img/PCBLayer.png)
+
+​	
+​	
+​	
+
+PCBs can be single sided (one copper layer), double sided (two copper layers) or multi-layer (outer and inner layers). We used double sided board for smaller overall footprint. Conductors on different layers are connected with vias. Multi-layer PCBs allow for much higher component density.
+
+FR-4 glass epoxy is the primary insulating substrate. A basic building block of the PCB is an FR-4 panel with a thin layer of copper foil laminated to one or both sides. In multi-layer boards multiple layers of material are laminated together.
+
+#### PCB Design using EDA software
+
+We opted for using high technology, free and community based EDA called CircuitMaker.
+
+![CircuitMaker logo](img/circuitMaker.png)
+
+CircuitMaker is the best free-to-use schematic and PCB design tool for the Open Source Hardware community built by Altium, so we can have complete confidence in the technology that drives most of the world’s PCB design activity. That’s why they have included powerful routing, hierarchical schematic entry, auto-routing, and Native 3D™ technology.
+
+#### PCB layout and component placing
+
+Accurate component placing should be made to increase the PCB size to the minimum. Also components’ size chosen accurately to pick the smallest size components, so we moved to SMD components rather than through hole components as shown in figures bellow.
+
+![3D Design](img/3D1.png)
+
+![3D Design](img/3D2.png)
+
+![3D Design](img/3D3.png)
+
+#### PCB production Capabilities
+
+| Items                                    | Manufacturing Capabilities               |
+| ---------------------------------------- | ---------------------------------------- |
+| Number	of Layers                         | 1-10 layers                              |
+| Material                                 | FR-4 (King Board)                        |
+| Maximum PCB Size(Dimension)              | 500x1100 mm                              |
+| Board Size Tolerance(Outline)            | ±0.2mm/±0.5mm                            |
+| Board Thickness                          | 0.4-2.4mm                                |
+| Board Thickness Tolerance(t≥1.0mm)       | ±10%                                     |
+| Board Thickness Tolerance(t<1.0mm)       | ±0.1mm                                   |
+| Min Trace                                | 0.1mm/4mil                               |
+| Min	Spacing                              | Min manufacturable spacing is 4mil (0.1mm), strongly suggest to design spacing above 6mil (0.15mm) to save cost. |
+| Outer Layer Copper Thickness             | 1oz/2oz/3oz(35μm/70μm/105μm)             |
+| Inner Layer Copper Thickness             | 1oz/1.5oz(35μm/50μm)                     |
+| Drill	Sizes (CNC)                        | 0.2-6.3mm                                |
+| Min	Width of Annular Ring                | 0.15mm(6mil)                             |
+| Finished	Hole Diameter (CNC)             | 0.2mm-6.2mm                              |
+| Finished	Hole Size Tolerance(CNC)        | ±0.08mm                                  |
+| Solder Mask                              | LPI                                      |
+| Minimum Character Width(Legend)          | 0.15mm                                   |
+| Minimum Character Height (Legend)        | 0.8mm                                    |
+| Character Width to Height Ratio (Legend) | 1:5                                      |
+| Minimum Diameter of Plated Half Holes    | 0.6mm                                    |
+| Surface Finishing                        | HASL with leadHASL lead freeImmersion gold |
+| Solder Mask                              | Green ,Red, Yellow, Blue, White ,Black   |
+| Silkscreen                               | White, Black, None                       |
+
+#### PCB Manufacturing Challenges
+
+There are a lot of challenges have faces us in manufacturing the printed circuit board :
+
+- High Cost by the local manufacturers in Egypt.
+- Bad quality by the local manufacturers.
+- High customs if manufactured abroad in china.
+- Preventing the manufactured products to arrive from the national security in Egypt.
+- Take long time to be arrive if manufactured abroad.
+- Bad quality of hand-made PCBs.
+- Bigger size when manufactured hand-made.
+
 ## References
 
 1. ["Embedded Hardware Design and Development"](http://rowebots.com/en/services/embedded-hardware-design-and-development). [rowebots.com](http://rowebots.com). June 2015.  Retrieved July 7, 2017.
