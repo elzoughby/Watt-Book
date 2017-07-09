@@ -48,7 +48,7 @@ As its name suggests, Embedded means something that is attached to another thing
 - **Microprocessors based** It must be microprocessor or microcontroller based.
 - **Memory** It must have a memory, as its software usually embeds in ROM. It does not need any secondary memories in the computer.
 - **Connected** It must have connected peripherals to connect input and output devices.
-- **Hardware/Software systems** Software is used for more features and flexibility. Hardware is used for performance and security.
+- **Hardware/Software systems** Software is used for more features and flexibility. Hardware is used for performance and security. [3]
 
 #### Basic Structure of an Embedded System
 
@@ -59,3 +59,4 @@ Most of the Embedded systems found are composed of a **Hardware** and a **Softwa
 1. ["Overview of Internet of Things"](https://cloud.google.com/solutions/iot-overview). Google Cloud Platform. April 19, 2017. Retrieved July 7, 2017.
 2. ["Intel steps into the Internet of platforms"](https://rickbouter.wordpress.com/2014/12/10/intel-steps-into-the-internet-of-platforms/). Intel® IoT Platform. 2014. Retrieved July 7, 2017.
 3. ["Embedded Systems - Overview"](https://www.tutorialspoint.com/embedded_systems/es_overview.htm). Tutorialspoint. Retrieved July 7, 2017.
+
