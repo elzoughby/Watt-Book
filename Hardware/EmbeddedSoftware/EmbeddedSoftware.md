@@ -41,8 +41,9 @@ it’s doing to service the interrupt), and yet it remains fairly simple. The wo
 priority task is the sum of the execution times for all of the code in the main loop plus all of the interrupt
 service routines.
 
-### References
+## References
 
 1. Ian Harris. ["Introduction to the Internet of Things and Embedded Systems"](https://www.coursera.org/instructor/ianharris). [Coursera.com](https://www.coursera.org). 
 2. "The Three Software Stacks Required for IoT Architectures". Eclipse IoT. September 2016.
 3. J. A. Cook and J. S. Freudenberg. ["Embedded Software Architecture"](https://www.eecs.umich.edu/courses/eecs461/lecture/SWArchitecture.pdf). EECS UMich. Fall 2008.
+
