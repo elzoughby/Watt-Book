@@ -20,6 +20,8 @@ The leading communication technologies used in the IoT world are IEEE 802.15.4, 
 
 The Internet Engineering Task Force (IETF) has developed alternative protocols for communication between IoT devices using IP because IP is a flexible and reliable standard. The Internet Protocol for Smart Objects (IPSO) Alliance has published various white papers describing alternative protocols and standards for the layers of the IP stack and an additional adaptation layer, which is used for communication between smart objects.
 
+![IoT Network Protocol Stack](img/IoTProtocolStack.png)
+
 1. **Physical and MAC Layer (IEEE 802.15.4)**. The IEEE 802.15.4 protocol is designed for enabling communication between compact and inexpensive low power embedded devices that need a long battery life. It defines standards and protocols for the physical and link (MAC) layer of the IP stack. It supports low power communication along with low cost and short range communication. In the case of such resource constrained environments, we need a small frame size, low bandwidth, and low transmit power.
 
    Transmission requires very little power (maximum one milliwatt), which is only one percent of that used in WiFi or cellular networks. This limits the range of communication. Because of the limited range, the devices have to operate cooperatively in order to enable multihop routing over longer distances. As a result, the packet size is limited to 127 bytes only, and the rate of communication is limited to 250 kbps. The coding scheme in IEEE 802.15.4 has built in redundancy, which makes the communication robust, allows us to detect losses, and enables the retransmission of lost packets. The protocol also supports short 16-bit link addresses to decrease the size of the header, communication overheads, and memory requirements.
@@ -44,7 +46,9 @@ Like other WiFi devices, devices supporting WiFi HaLow also support IP connectiv
 
 ## Watt? Networking
 
-Due to the popularity of WiFi for all people, Watt? uses it to connect to the Internet. Every Watt? device has a built-in WiFi supported microcontroller. It needs to connect to a WiFi router to start working properly. Here we will introduce more details about WiFi.
+Due to the popularity of WiFi for all people, Watt? uses it to connect to the Internet. Every Watt? device has a built-in WiFi supported microcontroller. It needs to connect to a WiFi router to start working properly. Setting up a Home WiFi network to work with our product Watt? is very easy comparing to other networking protocols.
+
+![Network protocols comparison](img/IoTNetSolutions.jpg)
 
 ### WiFi
 
@@ -70,11 +74,9 @@ As mentioned before, Watt? uses the *ESP8266 WiFi Module* as the core control an
 
 ![ESP8266 WiFi Module](img/ESP8266.png)
 
-The ESP8266 WiFi Module is a self contained SOC with integrated TCP/IP protocol stack that can give any microcontroller access to your WiFi network. The ESP8266 is capable of either hosting an application or offloading all WiFi networking functions from another application processor. Each ESP8266 module comes pre-programmed with an AT command set firmware, meaning, we can simply hook this up to an Arduino device and get a WiFi-ability very easily. The ESP8266 module is an extremely cost effective board with a huge, and ever growing, community.
+The ESP8266 WiFi Module is a self contained SOC with integrated TCP/IP protocol stack that can give any microcontroller access to our WiFi network. The ESP8266 is capable of either hosting an application or offloading all WiFi networking functions from another application processor. Each ESP8266 module comes pre-programmed with an AT command set firmware, meaning, we can simply hook this up to an Arduino device and get a WiFi-ability very easily. The ESP8266 module is an extremely cost effective board with a huge, and ever growing, community.
 
-This module has a powerful enough on-board processing and storage capability that allows it to be integrated with the sensors and other application specific devices through its GPIOs with minimal development up-front and minimal loading during runtime. Its high degree of on-chip integration allows for minimal external circuitry, including the front-end module, is designed to occupy minimal PCB area. The ESP8266 supports APSD for VoIP applications and Bluetooth co-existance interfaces, it contains a self-calibrated RF allowing it to work under all operating conditions, and requires no external RF parts.
-
-There is an almost limitless fountain of information available for the ESP8266, all of which has been provided by amazing community support. In the *Documents* section below you will find many resources to aid you in using the ESP8266, even instructions on how to transforming this module into an Internet of Things solution!
+This module has a powerful enough on-board processing and storage capability that allows it to be integrated with the sensors and other application specific devices through its GPIOs with minimal development up-front and minimal loading during runtime. Its high degree of on-chip integration allows for minimal external circuitry, including the front-end module, is designed to occupy minimal PCB area. The ESP8266 supports APSD for VoIP applications and Bluetooth co-existance interfaces, it contains a self-calibrated RF allowing it to work under all operating conditions, and requires no external RF parts. There is an almost limitless fountain of information available for the ESP8266, all of which has been provided by amazing community support.
 
 ## References
 
