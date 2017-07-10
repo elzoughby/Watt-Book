@@ -6,7 +6,7 @@
 - [Network](Network/Network.md)
 - [Hardware](Hardware/)
   - [Introduction](Hardware/Introduction/Introduction.md)
-  - [Hardware](Hardware/EmbeddedHardware/EmbeddedHardware.md)
-  - [Software](Hardware/EmbeddedSoftware/EmbeddedSoftware.md)
+  - [Embedded Hardware](Hardware/EmbeddedHardware/EmbeddedHardware.md)
+  - [Embedded Software](Hardware/EmbeddedSoftware/EmbeddedSoftware.md)
 
 
