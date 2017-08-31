@@ -98,8 +98,9 @@ After data is collected from a sensor, the device can provide data processing fu
 
 ## Appendix
 
-- The full source code for Watt? Smart Meter can be found on Github at https://github.com/elzoughby/Watt-SmartMeter
-- The full source code for Watt? Smart Plug can be found on Github at https://github.com/elzoughby/Watt-SmartPlug
+- The electronic circuit schematic and PCB design files can be found on circuit maker at https://circuitmaker.com/Projects/Details/Ahmed-Maher/WattProject
+- The source code for Watt? Smart Meter can be found on Github at https://github.com/elzoughby/Watt-SmartMeter
+- The source code for Watt? Smart Plug can be found on Github at https://github.com/elzoughby/Watt-SmartPlug
 - All the book resource files and images can be found on Github at https://github.com/elzoughby/Watt-Book 
 
 ## References
